@@ -9,13 +9,7 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     
     <!-- XML方式 -->
-    <!-- 
     <dubbo:reference id="userService"  interface="com.gmall.service.UserService"/>
-     -->
-    
-    
-    <!-- 注解版 -->
-    <dubbo:annotation package="com.gmall.order.controller"/>
     
     
 </beans>
