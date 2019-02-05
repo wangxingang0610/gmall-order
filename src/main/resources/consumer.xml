@@ -11,5 +11,9 @@
     <!-- XML方式 -->
     <dubbo:reference id="userService"  interface="com.gmall.service.UserService"/>
     
+    <!-- 监控中心协议 -->
+    <!-- <dubbo:monitor protocol="registry"></dubbo:monitor> -->
     
+    <!--  -->
+    <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>
 </beans>
